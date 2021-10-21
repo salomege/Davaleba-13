@@ -44,7 +44,9 @@ let area =  Math.sqrt(s*((s-side1)*(s-side2)*(s-side3)));
 console.log(area);
 
 
-let radius = 7;
-console.log("The Area =", Math.PI * Math.pow('radius', 2));
+let radius=7;
+let areacircle = Math.PI * (radius * radius);
+console.log(areacircle);
+
 
 
